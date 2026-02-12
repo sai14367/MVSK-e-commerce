@@ -1,0 +1,49 @@
+2026-02-12T12:36:30.250Z [INFO] ----------------------invoke list_jdks----------------------
+2026-02-12T12:36:30.252Z [INFO] [Tool.invoke]({name: list_jdks, input: {
+  "version": "17",
+  "projectPath": "c:\\Users\\VENKATA SAI KUMAR\\OneDrive\\Desktop\\skybrisk\\demo"
+}}).
+2026-02-12T12:36:30.253Z [INFO] [Task.start](): Starting task toolCall
+2026-02-12T12:36:30.255Z [INFO] [Task.start](): Started task toolCall
+2026-02-12T12:36:30.256Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2026-02-12T12:36:30.256Z [INFO] [Tool.invoke] do pre-invoke.
+2026-02-12T12:36:30.257Z [INFO] [Tool.invoke] do invoke.
+2026-02-12T12:36:30.626Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 17.0.16\n   📁 Path: C:\\Users\\VENKATA SAI KUMAR\\.jdk\\jdk-17.0.16\\bin\n   🏷️ Source: install\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-02-12T12:36:30.627Z [INFO] [Task.complete](): Completing task toolCall
+2026-02-12T12:36:30.628Z [INFO] [Task.complete](): Completed task toolCall
+2026-02-12T12:36:30.629Z [INFO] [Tool.invoke]({message: We found following jdks in your system:
+
+1. Java 17.0.16
+   📁 Path: C:\Users\VENKATA SAI KUMAR\.jdk\jdk-17.0.16\bin
+   🏷️ Source: install
+
+Total: 1 JDK installation(s) found}).
+2026-02-12T12:36:30.630Z [INFO] ----------------------invoked list_jdks----------------------
+2026-02-12T12:36:30.676Z [INFO] ---------------------prepare list_jdks----------------------
+2026-02-12T12:36:30.678Z [INFO] [Tool.prepareInvocation]({name: list_jdks, input: {
+  "version": "21"
+}}).
+2026-02-12T12:36:30.679Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-02-12T12:36:30.681Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-02-12T12:36:30.683Z [INFO] ----------------------prepared list_jdks----------------------
+2026-02-12T12:36:30.812Z [INFO] ----------------------invoke list_jdks----------------------
+2026-02-12T12:36:30.813Z [INFO] [Tool.invoke]({name: list_jdks, input: {
+  "version": "21",
+  "projectPath": "c:\\Users\\VENKATA SAI KUMAR\\OneDrive\\Desktop\\skybrisk\\demo"
+}}).
+2026-02-12T12:36:30.814Z [INFO] [Task.start](): Starting task toolCall
+2026-02-12T12:36:30.816Z [INFO] [Task.start](): Started task toolCall
+2026-02-12T12:36:30.816Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2026-02-12T12:36:30.818Z [INFO] [Tool.invoke] do pre-invoke.
+2026-02-12T12:36:30.819Z [INFO] [Tool.invoke] do invoke.
+2026-02-12T12:36:30.927Z [INFO] [Tool.invoke]({result: {
+  "message": "No JDK installations found."
+}}).
+2026-02-12T12:36:30.927Z [INFO] [Task.complete](): Completing task toolCall
+2026-02-12T12:36:30.929Z [INFO] [Task.complete](): Completed task toolCall
+2026-02-12T12:36:30.930Z [INFO] [Tool.invoke]({message: No JDK installations found.}).
+2026-02-12T12:36:30.931Z [INFO] ----------------------invoked list_jdks----------------------
