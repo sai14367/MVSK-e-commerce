@@ -1,9 +1,0 @@
-{
-  "env": "production",
-  "apps": [
-    {
-      "appRoot": ".",
-      "functions": "netlify/functions"
-    }
-  ]
-}
